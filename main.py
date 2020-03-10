@@ -10,9 +10,9 @@ def home():
 def test():
     return "Hello, this is a test"
 
-@app.route("/about")
+@app.route("/profile")
 def about():
-    return render_template("about.html")
+    return render_template("profile.html")
 
 @app.route("/template")
 def template():

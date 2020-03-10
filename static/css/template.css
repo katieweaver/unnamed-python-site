@@ -29,3 +29,14 @@ body {
     background-color:#ff8fbe;
     color: white;
   }
+
+
+
+
+  /*Profile*/
+
+  .grid-two-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+  }
