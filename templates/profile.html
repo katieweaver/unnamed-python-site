@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Profile</title>
-  </head>
-  <body>
-    {% extends "template.html" %}
-    {% block content %}
-      
-      <div class="grid-two-container">
-        <div>Showcase piece. Will probbaly need to make the margins 0 again.</div>
-        <div>Basic Profile Stats</div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Profile</title>
+</head>
+
+<body>
+  {% extends "template.html" %}
+  {% block content %}
+
+  <div class="grid-two-container-profile">
+    <div class="grid-showcase-container"><img src="https://via.placeholder.com/150" class="img-showcase"></div>
+    <div>
+      <!--Basic Profile Stats. Start writing more content for the inside of this div.-->
+      <div class="div-user-container">
+        <div class="div-user-name">
+          <h1>Username here</h1>
+        </div>
       </div>
-      <div>Rotating Gallery</div>
+      <div class="div-user-bio">
+          Details regarding artist here. 
+          Commission status. Current queue/line-up. Pricing details.
+      </div>
+    </div>
+  </div>
 
+  {% endblock %}
+</body>
 
-
-    {% endblock %}
-  </body>
 </html>

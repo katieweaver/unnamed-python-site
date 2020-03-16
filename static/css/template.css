@@ -35,8 +35,23 @@ body {
 
   /*Profile*/
 
-  .grid-two-container {
+  .grid-two-container-profile {
     display: grid;
-    grid-template-columns: auto auto;
-    margin: 10px;
+    grid-template-columns: 40% 60%;
+  }
+
+  .grid-showcase-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-showcase{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .div-user-name{
+    color: white;
+    text-align: center;
   }
